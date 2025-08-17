@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Faisal Mosque",
+    "description": "The largest mosque in Pakistan, renowned for its unique contemporary design and scenic location at the foot of the Margalla Hills.",
+    "category": "Religious Site",
+    "location": { "city": "Islamabad", "state": "Islamabad", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/islamabad/faisal-mosque.jpeg", "caption": "Faisal Mosque, Islamabad", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 50,
+    "price": 100,
+    "rating": { "average": 4.8, "count": 120 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Daman-e-Koh",
+    "description": "A popular viewpoint in Islamabad, offering panoramic views of the city.",
+    "category": "Natural Wonder",
+    "location": { "city": "Islamabad", "state": "Islamabad", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/islamabad/daman-e-koh.jpeg", "caption": "Daman-e-Koh, Islamabad", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 40,
+    "price": 100,
+    "rating": { "average": 4.6, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Margalla Hills National Park",
+    "description": "A national park in Islamabad, home to diverse wildlife and hiking trails.",
+    "category": "National Park",
+    "location": { "city": "Islamabad", "state": "Islamabad", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/islamabad/margalla-hills-national-park.jpeg", "caption": "Margalla Hills National Park", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 30,
+    "price": 100,
+    "rating": { "average": 4.9, "count": 200 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Pakistan Monument",
+    "description": "A national monument in Islamabad, symbolizing the unity of the Pakistani people.",
+    "category": "Monument",
+    "location": { "city": "Islamabad", "state": "Islamabad", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/islamabad/pakistan-monument.jpeg", "caption": "Pakistan Monument, Islamabad", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 60,
+    "price": 100,
+    "rating": { "average": 4.7, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Lok Virsa Museum",
+    "description": "A museum in Islamabad dedicated to the preservation of Pakistan's folk heritage.",
+    "category": "Museum",
+    "location": { "city": "Islamabad", "state": "Islamabad", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/islamabad/lok-virsa-museum.jpeg", "caption": "Lok Virsa Museum, Islamabad", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 35,
+    "price": 100,
+    "rating": { "average": 4.5, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rawal Lake",
+    "description": "A man-made reservoir in Islamabad, popular for boating and picnics.",
+    "category": "Lake",
+    "location": { "city": "Islamabad", "state": "Islamabad", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/islamabad/rawal-lake.jpeg", "caption": "Rawal Lake, Islamabad", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 45,
+    "price": 100,
+    "rating": { "average": 4.4, "count": 70 },
+    "createdAt": "2025-07-04"
+  }
+]

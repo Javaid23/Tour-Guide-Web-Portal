@@ -1,0 +1,633 @@
+[
+  {
+    "_id": "64f1e2a5b123456789abcdef",
+    "title": "Hunza Valley Discovery",
+    "description": "Explore the breathtaking Hunza Valley with its stunning mountain views, ancient forts, and warm hospitality. Visit Karimabad, Baltit Fort, and enjoy the spectacular scenery of Rakaposhi and Ultar peaks.",
+    "category": "adventure",
+    "location": "Gilgit-Baltistan",
+    "price": 450,
+    "duration": 8,
+    "maxGroupSize": 15,
+    "images": [
+      {"url": "/images/tours/hunza-valley-discovery-1.jpeg", "alt": "Hunza Valley"},
+      {"url": "/images/tours/hunza-valley-discovery-2.jpeg", "alt": "Hunza Valley"}
+    ],
+    "highlights": [
+      "Baltit Fort",
+      "Karimabad Bazaar",
+      "Rakaposhi View Point",
+      "Attabad Lake"
+    ],
+    "included": [
+      "Transportation",
+      "Accommodation",
+      "Meals",
+      "Local Guide",
+      "Entry Tickets"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Islamabad",
+        "description": "Airport pickup and briefing"
+      },
+      {
+        "day": 2,
+        "title": "Karakoram Highway Journey",
+        "description": "Scenic drive to Hunza via Karakoram Highway"
+      },
+      {
+        "day": 3,
+        "title": "Hunza Valley Exploration",
+        "description": "Visit Baltit Fort and Karimabad"
+      },
+      {
+        "day": 4,
+        "title": "Attabad Lake & Gulmit",
+        "description": "Visit the stunning Attabad Lake and Gulmit village"
+      },
+      {
+        "day": 5,
+        "title": "Passu Cones & Sost",
+        "description": "Explore Passu Cones and visit Sost border town"
+      },
+      {
+        "day": 6,
+        "title": "Khunjerab Pass",
+        "description": "Day trip to Khunjerab Pass - highest paved border crossing"
+      },
+      {
+        "day": 7,
+        "title": "Local Culture & Crafts",
+        "description": "Experience local culture, visit craft centers and interact with locals"
+      },
+      {
+        "day": 8,
+        "title": "Departure",
+        "description": "Return journey to Islamabad and departure"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 124,
+    "createdAt": "2023-09-01T10:30:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9130",
+    "title": "Lahore Heritage Walk",
+    "description": "Discover the magnificent Mughal architecture and rich cultural heritage of Lahore. Visit the iconic Badshahi Mosque, Lahore Fort, and explore the vibrant streets of the old city.",
+    "category": "cultural",
+    "location": "Punjab",
+    "price": 180,
+    "duration": 3,
+    "maxGroupSize": 20,
+    "images": [
+      {"url": "/images/tours/lahore-heritage-walk-1.jpeg", "alt": "Lahore Heritage"},
+      {"url": "/images/tours/lahore-heritage-walk-2.jpeg", "alt": "Lahore Heritage"}
+    ],
+    "highlights": [
+      "Badshahi Mosque",
+      "Lahore Fort",
+      "Shalimar Gardens",
+      "Food Street"
+    ],
+    "included": [
+      "Local Guide",
+      "Entry Tickets",
+      "Traditional Lunch",
+      "Local Transportation"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Old City Exploration",
+        "description": "Visit Badshahi Mosque and Lahore Fort"
+      },
+      {
+        "day": 2,
+        "title": "Cultural Immersion",
+        "description": "Explore Shalimar Gardens and local bazaars"
+      },
+      {
+        "day": 3,
+        "title": "Food & Culture",
+        "description": "Food Street tour and cultural sites"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 89,
+    "createdAt": "2023-09-02T14:20:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9131",
+    "title": "Karachi Coastal Adventure",
+    "description": "Experience the bustling metropolis of Karachi with its beautiful coastline, historic sites, and vibrant food culture. Visit Clifton Beach, explore the old quarters, and enjoy the sunset at Sea View.",
+    "category": "nature",
+    "location": "Sindh",
+    "price": 220,
+    "duration": 4,
+    "maxGroupSize": 12,
+    "images": [
+      {"url": "/images/tours/karachi-coastal-adventure-1.jpeg", "alt": "Karachi Coastal"},
+      {"url": "/images/tours/karachi-coastal-adventure-2.jpeg", "alt": "Karachi Coastal"}
+    ],
+    "highlights": [
+      "Clifton Beach",
+      "Quaid-e-Azam Mausoleum",
+      "Empress Market",
+      "Sea View"
+    ],
+    "included": [
+      "Hotel Accommodation",
+      "Meals",
+      "Local Transportation",
+      "Guide"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "City Heritage Tour",
+        "description": "Visit Quaid-e-Azam Mausoleum and historic downtown"
+      },
+      {
+        "day": 2,
+        "title": "Coastal Experience",
+        "description": "Clifton Beach and Sea View sunset"
+      },
+      {
+        "day": 3,
+        "title": "Market & Culture",
+        "description": "Empress Market and local neighborhoods"
+      }
+    ],
+    "rating": 4.4,
+    "reviewCount": 67,
+    "createdAt": "2023-09-03T09:15:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9132",
+    "title": "K2 Base Camp Trek",
+    "description": "The ultimate adventure to the base camp of the world's second-highest mountain, K2. Experience the raw beauty of the Karakoram range and challenge yourself on this legendary trek.",
+    "category": "adventure",
+    "location": "Gilgit-Baltistan",
+    "price": 1200,
+    "duration": 18,
+    "maxGroupSize": 8,
+    "images": [
+      {"url": "/images/tours/k2-base-camp-trek-1.jpeg", "alt": "K2 Base Camp"},
+      {"url": "/images/tours/k2-base-camp-trek-2.jpeg", "alt": "K2 Base Camp"}
+    ],
+    "highlights": [
+      "K2 Base Camp",
+      "Concordia",
+      "Baltoro Glacier",
+      "Broad Peak View"
+    ],
+    "included": [
+      "Professional Guide",
+      "Porters",
+      "Camping Equipment",
+      "Meals",
+      "Permits"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Skardu",
+        "description": "Fly to Skardu and preparation"
+      },
+      {
+        "day": 2,
+        "title": "Askole Trek Start",
+        "description": "Drive to Askole and begin trek"
+      },
+      {
+        "day": 3,
+        "title": "Jhola Camp",
+        "description": "Trek to Jhola camp along Braldu River"
+      },
+      {
+        "day": 4,
+        "title": "Paiju Camp",
+        "description": "Trek to Paiju camp, last vegetation before glacier"
+      },
+      {
+        "day": 5,
+        "title": "Rest Day at Paiju",
+        "description": "Acclimatization day, explore surroundings"
+      },
+      {
+        "day": 6,
+        "title": "Khoburtse Camp",
+        "description": "Cross Paiju glacier to Khoburtse"
+      },
+      {
+        "day": 7,
+        "title": "Urdukas Camp",
+        "description": "Trek to Urdukas with spectacular mountain views"
+      },
+      {
+        "day": 8,
+        "title": "Goro II Camp",
+        "description": "Continue along Baltoro glacier to Goro II"
+      },
+      {
+        "day": 9,
+        "title": "Concordia",
+        "description": "Reach Concordia - meeting point of glaciers"
+      },
+      {
+        "day": 10,
+        "title": "K2 Base Camp",
+        "description": "Trek to K2 Base Camp - the ultimate destination"
+      },
+      {
+        "day": 11,
+        "title": "Explore Base Camp",
+        "description": "Rest day at base camp, photography and exploration"
+      },
+      {
+        "day": 12,
+        "title": "Return to Concordia",
+        "description": "Trek back to Concordia camp"
+      },
+      {
+        "day": 13,
+        "title": "Goro II Return",
+        "description": "Continue descent to Goro II"
+      },
+      {
+        "day": 14,
+        "title": "Urdukas Return",
+        "description": "Trek back to Urdukas camp"
+      },
+      {
+        "day": 15,
+        "title": "Paiju Return",
+        "description": "Cross glacier back to Paiju camp"
+      },
+      {
+        "day": 16,
+        "title": "Jhola Return",
+        "description": "Continue descent to Jhola camp"
+      },
+      {
+        "day": 17,
+        "title": "Askole",
+        "description": "Final trek day back to Askole village"
+      },
+      {
+        "day": 18,
+        "title": "Return to Skardu",
+        "description": "Drive back to Skardu and fly to Islamabad"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 45,
+    "createdAt": "2023-09-04T16:30:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9133",
+    "title": "Swat Valley Paradise",
+    "description": "Discover the Switzerland of Pakistan - Swat Valley with its lush green valleys, crystal clear rivers, and peaceful Buddhist heritage sites.",
+    "category": "nature",
+    "location": "Khyber Pakhtunkhwa",
+    "price": 320,
+    "duration": 5,
+    "maxGroupSize": 16,
+    "images": [
+      {"url": "/images/tours/swat-valley-paradise-1.jpeg", "alt": "Swat Valley"},
+      {"url": "/images/tours/swat-valley-paradise-2.jpeg", "alt": "Swat Valley"}
+    ],
+    "highlights": [
+      "Kalam Valley",
+      "Ushu Forest",
+      "Buddhist Stupas",
+      "River Rafting"
+    ],
+    "included": [
+      "Transportation",
+      "Hotel Stay",
+      "Meals",
+      "Guide",
+      "Entry Fees"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Islamabad to Swat",
+        "description": "Scenic drive to Swat Valley"
+      },
+      {
+        "day": 2,
+        "title": "Kalam Exploration",
+        "description": "Visit Kalam and Ushu Forest"
+      },
+      {
+        "day": 3,
+        "title": "Buddhist Heritage",
+        "description": "Explore ancient Buddhist stupas and archaeological sites"
+      },
+      {
+        "day": 4,
+        "title": "River Activities",
+        "description": "River rafting and local village visits"
+      },
+      {
+        "day": 5,
+        "title": "Return Journey",
+        "description": "Morning in Mingora bazaar, return to Islamabad"
+      }
+    ],
+    "rating": 4.7,
+    "reviewCount": 156,
+    "createdAt": "2023-09-05T11:45:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9134",
+    "title": "Skardu Adventure",
+    "description": "Explore the gateway to the world's highest peaks. Visit stunning lakes, dramatic valleys, and experience the unique Balti culture of Skardu.",
+    "category": "adventure",
+    "location": "Gilgit-Baltistan",
+    "price": 520,
+    "duration": 7,
+    "maxGroupSize": 12,
+    "images": [
+      {"url": "/images/tours/skardu-adventure-1.jpeg", "alt": "Skardu Adventure"},
+      {"url": "/images/tours/skardu-adventure-2.jpeg", "alt": "Skardu Adventure"}
+    ],
+    "highlights": [
+      "Shangrila Lake",
+      "Satpara Lake",
+      "Deosai Plains",
+      "Skardu Fort"
+    ],
+    "included": [
+      "Accommodation",
+      "All Meals",
+      "Transportation",
+      "Guide",
+      "Lake Access"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrive Skardu",
+        "description": "Airport pickup and city orientation"
+      },
+      {
+        "day": 2,
+        "title": "Shangrila Resort",
+        "description": "Visit famous Shangrila Lake"
+      },
+      {
+        "day": 3,
+        "title": "Satpara Lake & Dam",
+        "description": "Explore Satpara Lake and the impressive dam"
+      },
+      {
+        "day": 4,
+        "title": "Skardu Fort",
+        "description": "Visit historic Skardu Fort and local bazaars"
+      },
+      {
+        "day": 5,
+        "title": "Deosai Plains",
+        "description": "Full day excursion to Deosai National Park"
+      },
+      {
+        "day": 6,
+        "title": "Cultural Experience",
+        "description": "Visit Balti villages and experience local culture"
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Morning sightseeing and departure from Skardu"
+      }
+    ],
+    "rating": 4.8,
+    "reviewCount": 93,
+    "createdAt": "2023-09-06T08:20:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9135",
+    "title": "Faisal Mosque & Islamabad Tour",
+    "description": "Explore Pakistan's modern capital city, Islamabad, with its beautiful architecture, gardens, and the iconic Faisal Mosque.",
+    "category": "religious",
+    "location": "Federal Capital",
+    "price": 120,
+    "duration": 2,
+    "maxGroupSize": 25,
+    "images": [
+      {"url": "/images/tours/faisal-mosque-islamabad-tour-1.jpeg", "alt": "Faisal Mosque"},
+      {"url": "/images/tours/faisal-mosque-islamabad-tour-2.jpeg", "alt": "Faisal Mosque"}
+    ],
+    "highlights": [
+      "Faisal Mosque",
+      "Daman-e-Koh",
+      "Pakistan Monument",
+      "Rose & Jasmine Garden"
+    ],
+    "included": [
+      "Transportation",
+      "Guide",
+      "Entry Tickets",
+      "Lunch"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Religious Sites",
+        "description": "Faisal Mosque and surrounding areas"
+      },
+      {
+        "day": 2,
+        "title": "City Overview",
+        "description": "Pakistan Monument and scenic viewpoints"
+      }
+    ],
+    "rating": 4.3,
+    "reviewCount": 78,
+    "createdAt": "2023-09-07T13:10:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9136",
+    "title": "Mohenjo-daro Historical Journey",
+    "description": "Step back in time to explore one of the world's earliest urban civilizations at the UNESCO World Heritage site of Mohenjo-daro.",
+    "category": "historical",
+    "location": "Sindh",
+    "price": 280,
+    "duration": 3,
+    "maxGroupSize": 20,
+    "images": [
+      {"url": "/images/tours/mohenjo-daro-historical-journey-1.jpeg", "alt": "Mohenjo-daro"},
+      {"url": "/images/tours/mohenjo-daro-historical-journey-2.jpeg", "alt": "Mohenjo-daro"}
+    ],
+    "highlights": [
+      "Ancient Ruins",
+      "Indus Valley Civilization",
+      "Archaeological Museum",
+      "Great Bath"
+    ],
+    "included": [
+      "Expert Guide",
+      "Museum Entry",
+      "Transportation",
+      "Documentation"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Karachi to Larkana",
+        "description": "Travel to Larkana and site introduction"
+      },
+      {
+        "day": 2,
+        "title": "Mohenjo-daro Exploration",
+        "description": "Full day at archaeological site"
+      },
+      {
+        "day": 3,
+        "title": "Museum & Return",
+        "description": "Visit archaeological museum and return journey"
+      }
+    ],
+    "rating": 4.5,
+    "reviewCount": 112,
+    "createdAt": "2023-09-08T15:25:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9137",
+    "title": "Fairy Meadows Trek",
+    "description": "Trek to the magical Fairy Meadows for breathtaking views of Nanga Parbat, the 'Killer Mountain'. Perfect for nature lovers and photography enthusiasts.",
+    "category": "nature",
+    "location": "Gilgit-Baltistan",
+    "price": 380,
+    "duration": 6,
+    "maxGroupSize": 14,
+    "images": [
+      {"url": "/images/tours/fairy-meadows-trek-1.jpeg", "alt": "Fairy Meadows"},
+      {"url": "/images/tours/fairy-meadows-trek-2.jpeg", "alt": "Fairy Meadows"}
+    ],
+    "highlights": [
+      "Nanga Parbat Views",
+      "Alpine Meadows",
+      "Star Gazing",
+      "Local Villages"
+    ],
+    "included": [
+      "Camping Gear",
+      "Meals",
+      "Guide",
+      "Transportation",
+      "Permits"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Islamabad to Chilas",
+        "description": "Road journey via Karakoram Highway"
+      },
+      {
+        "day": 2,
+        "title": "Trek to Fairy Meadows",
+        "description": "Jeep ride and trek to base camp"
+      },
+      {
+        "day": 3,
+        "title": "Nanga Parbat Base Camp",
+        "description": "Trek to Nanga Parbat base camp for closer mountain views"
+      },
+      {
+        "day": 4,
+        "title": "Exploration Day",
+        "description": "Explore alpine meadows, photography and relaxation"
+      },
+      {
+        "day": 5,
+        "title": "Return Trek",
+        "description": "Trek back to road head and drive to Chilas"
+      },
+      {
+        "day": 6,
+        "title": "Return to Islamabad",
+        "description": "Drive back to Islamabad via Karakoram Highway"
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 87,
+    "createdAt": "2023-09-09T10:40:00.000Z"
+  },
+  {
+    "_id": "686d277db77510275c6b9138",
+    "title": "Chitral Valley Cultural Tour",
+    "description": "Explore the remote and culturally rich Chitral Valley, home to the Kalash people and spectacular mountain scenery.",
+    "category": "cultural",
+    "location": "Khyber Pakhtunkhwa",
+    "price": 450,
+    "duration": 8,
+    "maxGroupSize": 10,
+    "images": [
+      {"url": "/images/tours/chitral-valley-cultural-tour-1.jpeg", "alt": "Chitral Valley"},
+      {"url": "/images/tours/chitral-valley-cultural-tour-2.jpeg", "alt": "Chitral Valley"}
+    ],
+    "highlights": [
+      "Kalash Villages",
+      "Chitral Fort",
+      "Shandur Pass",
+      "Local Festivals"
+    ],
+    "included": [
+      "Cultural Guide",
+      "Accommodation",
+      "Meals",
+      "Festival Access",
+      "Transportation"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Peshawar to Chitral",
+        "description": "Scenic mountain drive"
+      },
+      {
+        "day": 2,
+        "title": "Kalash Valley",
+        "description": "Visit traditional Kalash villages"
+      },
+      {
+        "day": 3,
+        "title": "Kalash Culture Deep Dive",
+        "description": "Experience Kalash festivals, traditions and local life"
+      },
+      {
+        "day": 4,
+        "title": "Chitral Fort & Museum",
+        "description": "Explore historic Chitral Fort and local museum"
+      },
+      {
+        "day": 5,
+        "title": "Shandur Pass",
+        "description": "Day trip to Shandur Pass - roof of the world"
+      },
+      {
+        "day": 6,
+        "title": "Local Communities",
+        "description": "Visit local communities and handicraft centers"
+      },
+      {
+        "day": 7,
+        "title": "Cultural Activities",
+        "description": "Participate in traditional activities and crafts"
+      },
+      {
+        "day": 8,
+        "title": "Return Journey",
+        "description": "Return to Peshawar with cultural insights"
+      }
+    ],
+    "rating": 4.6,
+    "reviewCount": 64,
+    "createdAt": "2023-09-10T14:55:00.000Z"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Hunza Valley Discovery",
+    "description": "Explore the breathtaking Hunza Valley with its stunning mountain views, ancient forts, and warm hospitality. Visit Karimabad, Baltit Fort, and enjoy the spectacular scenery of Rakaposhi and Ultar peaks.",
+    "category": "Valley",
+    "location": {
+      "city": "Hunza",
+      "state": "Gilgit-Baltistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Baltit_fort,_Hunza_Valley.jpg", "caption": "Hunza Valley mountain landscape with traditional houses", "isPrimary": true },
+      { "url": "/images/destinations/gilgit-baltistan/Baltit_fort,_Hunza_Valley.jpg", "caption": "Baltit Fort in Hunza Valley", "isPrimary": false },
+      { "url": "/images/destinations/gilgit-baltistan/attabad-lake.jpg", "caption": "Attabad Lake turquoise waters", "isPrimary": false },
+      { "url": "/images/destinations/gilgit-baltistan/Passu cones.jpeg", "caption": "Passu Cones dramatic mountain spires", "isPrimary": false },
+      { "url": "/images/destinations/gilgit-baltistan/Baltit_fort,_Hunza_Valley.jpg", "caption": "Ancient Altit Fort in Hunza", "isPrimary": false }
+    ],
+    "highlights": [
+      "Baltit Fort",
+      "Altit Fort",
+      "Eagle's Nest Viewpoint",
+      "Attabad Lake",
+      "Passu Cones",
+      "Karimabad Bazaar"
+    ],
+    "facilities": ["Round-trip transportation", "Accommodation", "Meals", "Guide", "Entry tickets", "Photography permissions", "First aid", "Cultural interaction"],
+    "duration": { "days": 7 },
+    "maxGroupSize": 25,
+    "price": 350,
+    "rating": { "average": 4.9, "count": 400 },
+    "createdAt": "2023-09-05",
+    "updatedAt": "2025-07-01"
+  },
+  {
+    "name": "K2 Base Camp Expedition",
+    "description": "The ultimate mountaineering adventure to the base camp of K2, the world's second-highest peak. This challenging expedition offers breathtaking views of the Karakoram range and an unforgettable high-altitude experience.",
+    "category": "Mountain",
+    "location": {
+      "city": "Skardu",
+      "state": "Gilgit-Baltistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/K2 Base Camp Expedition.jpeg", "caption": "K2 mountain peak with glaciers", "isPrimary": true }
+    ],
+    "highlights": ["Baltoro Glacier Trek", "Concordia Camp", "K2 Base Camp"],
+    "facilities": ["Expert guides", "Camping equipment", "Meals", "Porter services", "Evacuation insurance"],
+    "duration": { "days": 10 },
+    "maxGroupSize": 15,
+    "price": 500,
+    "rating": { "average": 5.0, "count": 60 },
+    "createdAt": "2023-09-03",
+    "updatedAt": "2025-01-13"
+  },
+  {
+    "name": "Skardu Lakes and Valleys",
+    "description": "Explore the pristine lakes and dramatic valleys around Skardu, including Shangrila Lake, Upper Kachura Lake, and the spectacular Deosai National Park. Perfect for nature lovers and photographers.",
+    "category": "Valley",
+    "location": {
+      "city": "Skardu",
+      "state": "Gilgit-Baltistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/skardu-shangrila.jpg", "caption": "Shangrila Resort Lower Kachura Lake with mountains reflection", "isPrimary": true },
+      { "url": "/images/destinations/gilgit-baltistan/Upper Kachura Lake.jpeg", "caption": "Upper Kachura Lake pristine waters", "isPrimary": false },
+      { "url": "/images/destinations/gilgit-baltistan/deosai-plains.jpg", "caption": "Deosai Plains wildflowers and mountains", "isPrimary": false },
+      { "url": "/images/destinations/gilgit-baltistan/Satpara Lake.jpg", "caption": "Satpara Lake high-altitude pristine waters", "isPrimary": false }
+    ],
+    "duration": { "days": 8 },
+    "maxGroupSize": 30,
+    "price": 500,
+    "rating": { "average": 4.8, "count": 150 },
+    "createdAt": "2023-09-01",
+    "updatedAt": "2025-07-01"
+  },
+  {
+    "name": "Fairy Meadows & Nanga Parbat Base Camp",
+    "description": "Trek to the breathtaking Fairy Meadows, known as the base camp for Nanga Parbat (8,126m), the world's 9th highest peak. Experience pristine alpine meadows, spectacular mountain views, and one of the most beautiful trekking destinations in Pakistan.",
+    "category": "Valley",
+    "location": {
+      "city": "Fairy Meadows",
+      "state": "Gilgit-Baltistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/fairy-meadows.jpg", "caption": "Fairy Meadows with Nanga Parbat backdrop", "isPrimary": true },
+      { "url": "/images/destinations/gilgit-baltistan/Nanga Parbat Base Camp.jpeg", "caption": "Nanga Parbat base camp trekking route", "isPrimary": false },
+      { "url": "/images/destinations/gilgit-baltistan/Beyal Camp.jpeg", "caption": "Beyal Camp on the way to Fairy Meadows", "isPrimary": false }
+    ],
+    "highlights": ["Fairy Meadows", "Nanga Parbat Views", "Beyal Camp Trek", "Alpine Photography"],
+    "facilities": ["Mountain guide", "Camping equipment", "Meals", "Porter services", "Jeep transport", "Photography permissions"],
+    "duration": { "days": 6 },
+    "maxGroupSize": 20,
+    "price": 350,
+    "rating": { "average": 4.7, "count": 80 },
+    "createdAt": "2025-01-14"
+  },
+  {
+    "name": "Khunjerab Pass",
+    "description": "The highest paved international border crossing and the highest point on the Karakoram Highway, connecting Pakistan and China.",
+    "category": "Mountain",
+    "location": { "city": "Khunjerab", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Khunjerab Pass.jpeg", "caption": "Khunjerab Pass, Pakistan-China border", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 200 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Attabad Lake",
+    "description": "A stunning turquoise lake formed by a landslide in 2010, now a major tourist attraction for boating and scenic views.",
+    "category": "Lake",
+    "location": { "city": "Attabad", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/attabad-lake.jpg", "caption": "Attabad Lake, Hunza Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 300 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Hopper Valley & Glacier",
+    "description": "A beautiful valley in Nagar District, famous for its glacier, lush meadows, and panoramic views of snow-capped peaks.",
+    "category": "Valley",
+    "location": { "city": "Hopper", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Hopper Valley & Glacier.jpeg", "caption": "Hopper Glacier, Nagar Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 350,
+    "rating": { "average": 4.7, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Phander Lake",
+    "description": "A serene, crystal-clear lake in the Phander Valley, known for its trout fishing and breathtaking scenery.",
+    "category": "Lake",
+    "location": { "city": "Phander", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Phander Lake.jpeg", "caption": "Phander Lake, Ghizer District", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Deosai Plains National Park",
+    "description": "Known as the Land of Giants, this high-altitude plateau is famous for its wildlife, wildflowers, and vast open landscapes.",
+    "category": "National Park",
+    "location": { "city": "Deosai", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Deosai Plains National Park.jpeg", "caption": "Deosai Plains National Park", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 130 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rama Meadows",
+    "description": "A lush green meadow near Astore, surrounded by pine forests and snow-capped peaks, gateway to Rama Lake.",
+    "category": "Valley",
+    "location": { "city": "Rama", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Rama Meadows.jpeg", "caption": "Rama Meadows, Astore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 140 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Satpara Lake",
+    "description": "A natural lake near Skardu, known for its clear blue water and scenic beauty.",
+    "category": "Lake",
+    "location": { "city": "Skardu", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Satpara Lake.jpeg", "caption": "Satpara Lake, Skardu", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 120 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sheosar Lake",
+    "description": "A high-altitude lake in Deosai National Park, famous for its stunning views and wildflowers.",
+    "category": "Lake",
+    "location": { "city": "Deosai", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Sheosar Lake.jpeg", "caption": "Sheosar Lake, Deosai National Park", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 100 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Gupis Valley",
+    "description": "A picturesque valley in Ghizer District, known for its turquoise river, lush meadows, and peaceful ambiance.",
+    "category": "Valley",
+    "location": { "city": "Gupis", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Gupis Valley.jpeg", "caption": "Gupis Valley, Ghizer", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 350,
+    "rating": { "average": 4.6, "count": 95 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Minapin, Nagar Valley",
+    "description": "A scenic village in Nagar Valley, popular as a base for Rakaposhi and Diran Peak treks.",
+    "category": "Valley",
+    "location": { "city": "Minapin", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Minapin, Nagar Valley.jpeg", "caption": "Minapin, Nagar Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 85 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Chillinji Pass Trek",
+    "description": "A challenging trek connecting Ishkoman Valley in Gilgit-Baltistan to Chapursan Valley, known for its remote beauty.",
+    "category": "Adventure Spot",
+    "location": { "city": "Chillinji Pass", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Chillinji Pass Trek.jpeg", "caption": "Chillinji Pass Trek", "isPrimary": true }
+    ],
+    "duration": { "days": 8 },
+    "maxGroupSize": 15,
+    "price": 500,
+    "rating": { "average": 4.8, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Batura Glacier Trek",
+    "description": "One of the largest glaciers outside the polar regions, offering spectacular trekking opportunities in Upper Hunza.",
+    "category": "Adventure Spot",
+    "location": { "city": "Batura", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Batura Glacier Trek.jpeg", "caption": "Batura Glacier, Hunza", "isPrimary": true }
+    ],
+    "duration": { "days": 8 },
+    "maxGroupSize": 12,
+    "price": 500,
+    "rating": { "average": 4.9, "count": 65 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Trango Towers & Concordia Base Camp",
+    "description": "A world-renowned trekking and climbing destination in the Karakoram, famous for its dramatic granite spires and the confluence of major glaciers. Concordia is known as the \"throne room of the mountain gods\" with views of K2, Broad Peak, and more.",
+    "category": "Adventure Spot",
+    "location": { "city": "Skardu", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Trango Towers & Concordia Base Camp.jpeg", "caption": "Trango Towers and Concordia Base Camp, Karakoram", "isPrimary": true }
+    ],
+    "highlights": ["Trango Towers", "Concordia Camp", "K2 Views", "Baltoro Glacier Trek"],
+    "duration": { "days": 9 },
+    "maxGroupSize": 10,
+    "price": 500,
+    "rating": { "average": 5.0, "count": 55 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "K2 Base Camp",
+    "description": "The base camp for the world's second-highest mountain, a legendary destination for mountaineers.",
+    "category": "Mountain",
+    "location": { "city": "K2", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/K2 Base Camp.jpeg", "caption": "K2 Base Camp, Karakoram", "isPrimary": true }
+    ],
+    "duration": { "days": 10 },
+    "maxGroupSize": 15,
+    "price": 500,
+    "rating": { "average": 5.0, "count": 60 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rakaposhi View Point",
+    "description": "A famous viewpoint on the Karakoram Highway, offering spectacular views of Rakaposhi (7,788m).",
+    "category": "Viewpoint",
+    "location": { "city": "Ghulmet", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Rakaposhi View Point.jpeg", "caption": "Rakaposhi View Point, Karakoram Highway", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 210 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Cold Desert Skardu",
+    "description": "A unique high-altitude sandy desert in Skardu, surrounded by snow-capped peaks.",
+    "category": "Desert",
+    "location": { "city": "Skardu", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Cold Desert Skardu.jpeg", "caption": "Cold Desert, Skardu", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 180 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Pakistan-China Border (Khunjerab Pass)",
+    "description": "The highest paved border crossing in the world, famous for its wildlife and dramatic scenery.",
+    "category": "Mountain Pass",
+    "location": { "city": "Khunjerab", "state": "Gilgit-Baltistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/gilgit-baltistan/Khunjerab Pass.jpeg", "caption": "Khunjerab Pass, Pakistan-China Border", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 200 },
+    "createdAt": "2025-07-04"
+  }
+]

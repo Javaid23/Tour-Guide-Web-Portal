@@ -1,0 +1,328 @@
+[
+  {
+    "name": "Mehrgarh",
+    "description": "An ancient Neolithic archaeological site, one of the earliest in South Asia, showing evidence of farming and herding. It is a precursor to the Indus Valley Civilization.",
+    "category": "Archaeological Site",
+    "location": {
+      "address": "Bolan Pass, Balochistan, Pakistan",
+      "city": "Dhadar",
+      "state": "Balochistan",
+      "country": "Pakistan",
+      "coordinates": {
+        "latitude": 29.375,
+        "longitude": 67.6458
+      }
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Mehrgarh.jpeg", "caption": "Excavations at Mehrgarh archaeological site", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 40,
+    "price": 500,
+    "rating": { "average": 4.8, "count": 350 },
+    "bestTimeToVisit": "October to March",
+    "facilities": ["Guided Tours", "Museum", "Parking"]
+  },
+  {
+    "name": "Quetta Geological Museum",
+    "description": "A museum showcasing the rich geological history of Balochistan, including fossils, minerals, and rock formations from the region.",
+    "category": "Museum",
+    "location": {
+      "address": "Geological Survey of Pakistan, Sariab Road, Quetta",
+      "city": "Quetta",
+      "state": "Balochistan",
+      "country": "Pakistan",
+      "coordinates": {
+        "latitude": 30.1833,
+        "longitude": 66.95
+      }
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Quetta Geological Museum.jpeg", "caption": "Geological Survey of Pakistan building in Quetta", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 30,
+    "price": 500,
+    "rating": { "average": 4.5, "count": 120 },
+    "bestTimeToVisit": "All year",
+    "facilities": ["Exhibits", "Restrooms", "Parking"]
+  },
+  {
+    "name": "Hingol National Park",
+    "description": "A vast national park known for its unique rock formations, mud volcanoes, and the Hinglaj Mata temple. It is home to diverse wildlife, including the Persian leopard and urial.",
+    "category": "National Park",
+    "location": {
+      "address": "Makran Coastal Highway, Balochistan, Pakistan",
+      "city": "Hingol",
+      "state": "Balochistan",
+      "country": "Pakistan",
+      "coordinates": {
+        "latitude": 25.5,
+        "longitude": 65.5167
+      }
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Hingol National Park.jpeg", "caption": "Hingol National Park, Balochistan", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 60,
+    "price": 500,
+    "rating": { "average": 4.9, "count": 220 },
+    "bestTimeToVisit": "November to March",
+    "facilities": ["Wildlife", "Hiking", "Temples"]
+  },
+  {
+    "name": "Pir Ghaib Waterfall",
+    "description": "A scenic waterfall and natural spring located in the Bolan Valley, surrounded by lush greenery. It is a popular spot for picnics and recreation.",
+    "category": "Waterfall",
+    "location": {
+      "address": "Bolan Valley, near Kolpur, Balochistan",
+      "city": "Bolan",
+      "state": "Balochistan",
+      "country": "Pakistan",
+      "coordinates": {
+        "latitude": 29.8167,
+        "longitude": 67.3333
+      }
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Pir Ghaib Waterfall.jpeg", "caption": "Pir Ghaib Waterfall in the Bolan Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 50,
+    "price": 500,
+    "rating": { "average": 4.6, "count": 280 },
+    "bestTimeToVisit": "March to October",
+    "facilities": ["Picnic Areas", "Natural Pools", "Parking"]
+  },
+  {
+    "name": "Hanna Lake",
+    "description": "A serene lake in a rocky mountain environment, offering pedal boating and beautiful views, located near Quetta.",
+    "category": "Lake",
+    "location": {
+      "address": "Hanna Lake, Urak Valley, Quetta, Balochistan, Pakistan",
+      "city": "Quetta",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Hanna Lake.jpeg", "caption": "Hanna Lake in Quetta", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 20,
+    "price": 400,
+    "rating": { "average": 4.2, "count": 120 }
+  },
+  {
+    "name": "Urak Valley",
+    "description": "Known as the 'Land of Orchards', this valley near Quetta is famous for its apple, apricot, and peach trees, and stunning natural beauty.",
+    "category": "Natural Beauty",
+    "location": {
+      "address": "Urak Valley, Quetta, Balochistan, Pakistan",
+      "city": "Quetta",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Urak Valley.jpeg", "caption": "Urak Valley's lush landscape", "isPrimary": true }
+    ],
+    "duration": { "days": 3 },
+    "maxGroupSize": 25,
+    "price": 300,
+    "rating": { "average": 4.5, "count": 95 }
+  },
+  {
+    "name": "Quaid-e-Azam Residency",
+    "description": "The historic residence where Muhammad Ali Jinnah spent his last days. Located in Ziarat, it's a national monument surrounded by juniper forests.",
+    "category": "Historical Site",
+    "location": {
+      "address": "Ziarat Residency, Ziarat, Balochistan, Pakistan",
+      "city": "Ziarat",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Quaid-e-Azam Residency.jpeg", "caption": "Quaid-e-Azam Residency in Ziarat", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 15,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 250 }
+  },
+  {
+    "name": "Hazarganji Chiltan National Park",
+    "description": "Established to protect the Chiltan markhor, this park near Quetta covers a vast area of rugged mountains and is rich in biodiversity.",
+    "category": "National Park",
+    "location": {
+      "address": "Hazarganji Chiltan National Park, Quetta, Balochistan, Pakistan",
+      "city": "Quetta",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Hazarganji Chiltan National Park.jpeg", "caption": "Hazarganji Chiltan National Park", "isPrimary": true }
+    ],
+    "duration": { "days": 3 },
+    "maxGroupSize": 50,
+    "price": 500,
+    "rating": { "average": 4.4, "count": 70 }
+  },
+  {
+    "name": "Ziarat Juniper Forest",
+    "description": "One of the largest and oldest juniper forests in the world, with some trees being thousands of years old. A unique and protected ecosystem.",
+    "category": "Natural Beauty",
+    "location": {
+      "address": "Juniper Forest, Ziarat, Balochistan, Pakistan",
+      "city": "Ziarat",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Ziarat Juniper Forest.jpeg", "caption": "Ancient Juniper Forest in Ziarat", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 30,
+    "price": 400,
+    "rating": { "average": 4.9, "count": 180 }
+  },
+  {
+    "name": "Princess of Hope",
+    "description": "A natural rock formation in Hingol National Park that resembles a princess looking beyond the horizon. A famous landmark on the Makran Coastal Highway.",
+    "category": "Natural Wonder",
+    "location": {
+      "address": "Hingol National Park, Makran Coastal Highway, Balochistan, Pakistan",
+      "city": "Hingol",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Princess of Hope.jpeg", "caption": "The Princess of Hope rock formation", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 50,
+    "price": 500,
+    "rating": { "average": 4.7, "count": 210 }
+  },
+  {
+    "name": "Mud Volcanoes",
+    "description": "The world's largest and highest mud volcanoes, located in Hingol National Park. A unique geological phenomenon.",
+    "category": "Natural Wonder",
+    "location": {
+      "address": "Hingol National Park, Balochistan, Pakistan",
+      "city": "Hingol",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Mud Volcanoes.jpeg", "caption": "Mud Volcanoes in Balochistan", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 50,
+    "price": 500,
+    "rating": { "average": 4.6, "count": 130 }
+  },
+  {
+    "name": "Ormara Beach",
+    "description": "A stunning and pristine beach with golden sand and clear blue waters, located along the Makran Coastal Highway.",
+    "category": "Beach",
+    "location": {
+      "address": "Ormara Beach, Ormara, Balochistan, Pakistan",
+      "city": "Ormara",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Ormara Beach.jpeg", "caption": "Golden sands of Ormara Beach", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 190 }
+  },
+  {
+    "name": "Kund Malir Beach",
+    "description": "A breathtaking desert beach with crystal-clear water, located in Hingol National Park. Famous for its scenic beauty.",
+    "category": "Beach",
+    "location": {
+      "address": "Kund Malir, Makran Coastal Highway, Balochistan, Pakistan",
+      "city": "Kund Malir",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Kund Malir Beach.jpeg", "caption": "Kund Malir Beach at sunset", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 80,
+    "price": 250,
+    "rating": { "average": 4.9, "count": 300 }
+  },
+  {
+    "name": "Gwadar Port",
+    "description": "A strategic deep-sea port on the Arabian Sea, offering panoramic views of the ocean and surrounding landscape.",
+    "category": "Landmark",
+    "location": {
+      "address": "Gwadar Port, Gwadar, Balochistan, Pakistan",
+      "city": "Gwadar",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Gwadar - Port city.jpeg", "caption": "Gwadar Port at dusk", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 50,
+    "price": 300,
+    "rating": { "average": 4.5, "count": 160 }
+  },
+  {
+    "name": "Astola Island",
+    "description": "Pakistan's only major offshore island, known for its pristine beaches, coral reefs, and unique wildlife. A haven for eco-tourism and diving.",
+    "category": "Island",
+    "location": {
+      "address": "Astola Island, Arabian Sea, near Pasni, Balochistan, Pakistan",
+      "city": "Astola Island",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Astola Island.jpeg", "caption": "Pristine beauty of Astola Island", "isPrimary": true }
+    ],
+    "duration": { "days": 6 },
+    "maxGroupSize": 20,
+    "price": 500,
+    "rating": { "average": 4.9, "count": 90 }
+  },
+  {
+    "name": "Pir Ghaib Waterfalls",
+    "description": "A beautiful waterfall and natural spring located in the Bolan Valley, cascading down rocky cliffs into a turquoise pool. A popular picnic spot.",
+    "category": "Waterfall",
+    "location": {
+      "address": "Pir Ghaib, Bolan Valley, near Mach, Balochistan, Pakistan",
+      "city": "Bolan",
+      "state": "Balochistan",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/balochistan/Pir Ghaib Waterfalls.jpeg", "caption": "The cascading Pir Ghaib Waterfalls", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 50,
+    "price": 500,
+    "rating": { "average": 4.6, "count": 110 }
+  },
+  {
+    "name": "Hinglaj Mata Temple",
+    "description": "A sacred Hindu pilgrimage site in Hingol National Park, Balochistan, visited by thousands annually.",
+    "category": "Religious Site",
+    "location": { "city": "Hingol", "state": "Balochistan", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/balochistan/Hinglaj Mata Temple.jpeg", "caption": "Hinglaj Mata Temple, Balochistan", "isPrimary": true }
+    ],
+    "createdAt": "2025-07-04",
+    "duration": { "days": 2 },
+    "maxGroupSize": 50,
+    "price": 500,
+    "rating": { "average": 4.7, "count": 300 }
+  }
+]

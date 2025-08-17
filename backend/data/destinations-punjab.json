@@ -1,0 +1,572 @@
+[
+  {
+    "name": "Badshahi Mosque",
+    "description": "One of the largest mosques in the world and a masterpiece of Mughal architecture built by Emperor Aurangzeb in 1673.",
+    "category": "Cultural Site",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Badshahi Mosque.jpeg", "caption": "Badshahi Mosque, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 60,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 210 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Qila Mubarak",
+    "description": "A UNESCO World Heritage site, this fort complex is a fine example of Punjabi architecture.",
+    "category": "Fort",
+    "location": {
+      "city": "Patiala",
+      "state": "Punjab",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/punjab/Qila Mubarak.jpeg", "caption": "Qila Mubarak fort complex", "isPrimary": true }
+    ],
+    "highlights": ["Qila Mubarak", "Sheesh Mahal"],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 95 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sheesh Mahal",
+    "description": "A beautiful palace known for its stunning mirror work and architecture.",
+    "category": "Palace",
+    "location": {
+      "city": "Patiala",
+      "state": "Punjab",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/punjab/Sheesh Mahal.jpeg", "caption": "Sheesh Mahal palace mirror work", "isPrimary": true }
+    ],
+    "highlights": ["Sheesh Mahal"],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Lahore Fort",
+    "description": "A UNESCO World Heritage Site and a symbol of Lahore's Mughal heritage.",
+    "category": "Fort",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Lahore Fort.jpg", "caption": "Lahore Fort, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 180 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Shalimar Gardens",
+    "description": "A Mughal garden complex in Lahore, known for its terraced levels and fountains.",
+    "category": "Garden",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Shalimar Garden.jpeg", "caption": "Shalimar Gardens, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 35,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Wagah Border",
+    "description": "The border crossing between Pakistan and India, famous for its daily flag-lowering ceremony.",
+    "category": "Cultural Site",
+    "location": { "city": "Wagah", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Wagah Border.jpeg", "caption": "Wagah Border Ceremony", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.4, "count": 300 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Minar-e-Pakistan",
+    "description": "A national monument in Lahore, symbolizing the Pakistan Resolution.",
+    "category": "Monument",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Minar-e-Pakistan.jpeg", "caption": "Minar-e-Pakistan, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 150 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Food Street Lahore",
+    "description": "A vibrant street in Lahore famous for its traditional Pakistani cuisine and lively atmosphere.",
+    "category": "Market",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Food Street.jpeg", "caption": "Food Street, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 220 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Wazir Khan Mosque",
+    "description": "A 17th-century mosque in Lahore, renowned for its intricate tile work.",
+    "category": "Religious Site",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Wazir Khan Mosque.jpeg", "caption": "Wazir Khan Mosque, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 25,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Lahore Museum",
+    "description": "The largest museum in Pakistan, housing a vast collection of art and historical artifacts.",
+    "category": "Museum",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Lahore Museum.jpg", "caption": "Lahore Museum", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Raja Bazaar",
+    "description": "A bustling market in Rawalpindi, known for its traditional shops and vibrant atmosphere.",
+    "category": "Market",
+    "location": { "city": "Rawalpindi", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Raja Bazaar.jpeg", "caption": "Raja Bazaar, Rawalpindi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 130 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Ayub National Park",
+    "description": "A large urban park in Rawalpindi, featuring gardens, lakes, and recreational facilities.",
+    "category": "National Park",
+    "location": { "city": "Rawalpindi", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Ayub National Park.jpeg", "caption": "Ayub National Park, Rawalpindi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 0,
+    "rating": { "average": 4.3, "count": 250 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Murree Mall Road",
+    "description": "The main commercial street in Murree, lined with shops, cafes, and colonial-era buildings.",
+    "category": "Market",
+    "location": { "city": "Murree", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Mall Road Murree.jpeg", "caption": "Mall Road, Murree", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 140 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Kashmir Point",
+    "description": "A scenic viewpoint in Murree, offering panoramic views of the Kashmir mountains.",
+    "category": "Natural Wonder",
+    "location": { "city": "Murree", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Kashmir Point.jpeg", "caption": "Kashmir Point, Murree", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 160 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Pindi Point",
+    "description": "A popular viewpoint in Murree, known for its chairlift and views of the surrounding hills.",
+    "category": "Natural Wonder",
+    "location": { "city": "Murree", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Pindi Point.jpeg", "caption": "Pindi Point, Murree", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 150 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Patriata (New Murree)",
+    "description": "A hill station near Murree, famous for its chairlift and cable car rides.",
+    "category": "Hill Station",
+    "location": { "city": "Patriata", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Patriata (New Murree).jpeg", "caption": "Patriata (New Murree)", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 180 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Khewra Salt Mines",
+    "description": "The world's second-largest salt mine, famous for its salt chambers and sculptures.",
+    "category": "Natural Wonder",
+    "location": { "city": "Khewra", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Khewra Salt Mines.jpeg", "caption": "Khewra Salt Mines", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Taxila",
+    "description": "A UNESCO World Heritage Site, home to ancient Buddhist ruins and archaeological treasures.",
+    "category": "Archaeological Site",
+    "location": { "city": "Taxila", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Taxila.jpeg", "caption": "Taxila Buddhist Ruins", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rohtas Fort",
+    "description": "A 16th-century fortress and UNESCO World Heritage Site near Jhelum.",
+    "category": "Fort",
+    "location": { "city": "Jhelum", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Rohtas Fort.jpeg", "caption": "Rohtas Fort, Jhelum", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 100 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Noor Mahal",
+    "description": "A 19th-century palace in Bahawalpur, known for its grandeur and architecture.",
+    "category": "Palace",
+    "location": { "city": "Bahawalpur", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Noor Mahal.jpeg", "caption": "Noor Mahal, Bahawalpur", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 95 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Derawar Fort",
+    "description": "A massive square fort in the Cholistan Desert, famous for its 40 bastions.",
+    "category": "Fort",
+    "location": { "city": "Bahawalpur", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Derawar Fort.jpeg", "caption": "Derawar Fort, Cholistan Desert", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Lal Suhanra National Park",
+    "description": "A biosphere reserve near Bahawalpur, home to desert, forest, and wetland ecosystems.",
+    "category": "National Park",
+    "location": { "city": "Bahawalpur", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Lal Suhanra National Park.jpeg", "caption": "Lal Suhanra National Park", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 0,
+    "rating": { "average": 4.4, "count": 200 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Multan Fort",
+    "description": "An ancient fort in Multan, known for its historical significance and Sufi shrines.",
+    "category": "Fort",
+    "location": { "city": "Multan", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Multan Fort.jpeg", "caption": "Multan Fort", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 100 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Shrine of Bahauddin Zakariya",
+    "description": "A famous Sufi shrine in Multan, attracting thousands of devotees every year.",
+    "category": "Religious Site",
+    "location": { "city": "Multan", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Shrine of Bahauddin Zakariya.jpeg", "caption": "Shrine of Bahauddin Zakariya, Multan", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 0,
+    "rating": { "average": 4.8, "count": 250 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Shrine of Shah Rukn-e-Alam",
+    "description": "A magnificent Sufi shrine in Multan, known for its unique architecture and spiritual significance.",
+    "category": "Religious Site",
+    "location": { "city": "Multan", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Shrine of Shah Rukn-e-Alam.jpeg", "caption": "Shrine of Shah Rukn-e-Alam, Multan", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 0,
+    "rating": { "average": 4.9, "count": 260 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Bhawalnagar Fort Abbas",
+    "description": "A historic fort in the Cholistan Desert, near the town of Fort Abbas.",
+    "category": "Fort",
+    "location": { "city": "Fort Abbas", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Bhawalnagar Fort Abbas.jpeg", "caption": "Fort Abbas, Cholistan Desert", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Cholistan Desert",
+    "description": "A vast desert region in southern Punjab, known for its nomadic culture and desert rallies.",
+    "category": "Desert",
+    "location": { "city": "Cholistan", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Cholistan Desert.jpeg", "caption": "Cholistan Desert, Punjab", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 0,
+    "rating": { "average": 4.2, "count": 300 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Soon Valley",
+    "description": "A scenic valley in northern Punjab, famous for its lakes, temples, and Sakesar peak.",
+    "category": "Valley",
+    "location": { "city": "Soon Valley", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Soon Valley.jpeg", "caption": "Soon Valley, Punjab", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 120 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Bhera",
+    "description": "An ancient town on the Grand Trunk Road, known for its Mughal-era architecture and traditional crafts.",
+    "category": "City",
+    "location": { "city": "Bhera", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Bhera.jpeg", "caption": "Bhera, Punjab", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Faisalabad Clock Tower",
+    "description": "The iconic clock tower in Faisalabad, surrounded by eight bazaars.",
+    "category": "Monument",
+    "location": { "city": "Faisalabad", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Faisalabad Clock Tower.jpeg", "caption": "Faisalabad Clock Tower", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Gatwala Park Faisalabad",
+    "description": "A large park in Faisalabad, popular for family outings and picnics.",
+    "category": "Garden",
+    "location": { "city": "Faisalabad", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Gatwala Park Faisalabad.jpeg", "caption": "Gatwala Park, Faisalabad", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 0,
+    "rating": { "average": 4.4, "count": 200 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Anarkali Bazaar",
+    "description": "A historic and bustling market in Lahore, famous for its traditional shops, food, and vibrant atmosphere.",
+    "category": "Market",
+    "location": { "city": "Lahore", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Anarkali Bazaar.jpeg", "caption": "Anarkali Bazaar, Lahore", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 150 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Patriata Chair Lift",
+    "description": "A famous chair lift and cable car ride in Patriata (New Murree), providing panoramic views of the forested hills.",
+    "category": "Adventure Spot",
+    "location": { "city": "Patriata", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Patriata Chair Lift.jpeg", "caption": "Patriata Chair Lift, New Murree", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 180 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Saddar Rawalpindi",
+    "description": "A bustling commercial area in Rawalpindi, known for its colonial-era buildings and shopping streets.",
+    "category": "Market",
+    "location": { "city": "Rawalpindi", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Saddar Rawalpindi.jpeg", "caption": "Saddar, Rawalpindi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 130 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Murree Road Rawalpindi",
+    "description": "A major road in Rawalpindi, connecting the city to Murree and known for its commercial activity.",
+    "category": "City",
+    "location": { "city": "Rawalpindi", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Murree Road Rawalpindi.jpeg", "caption": "Murree Road, Rawalpindi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 0,
+    "rating": { "average": 4.3, "count": 250 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Handicraft Bazaars Multan",
+    "description": "Traditional bazaars in Multan, famous for blue pottery, camel skin lamps, and local crafts.",
+    "category": "Market",
+    "location": { "city": "Multan", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Handicraft Bazaars Multan.jpeg", "caption": "Handicraft Bazaar, Multan", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Amb Shareef",
+    "description": "An archaeological site in Soon Valley, known for its ancient Hindu temples and historical significance.",
+    "category": "Archaeological Site",
+    "location": { "city": "Amb Shareef", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Amb Shareef.jpeg", "caption": "Amb Shareef, Soon Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Khabeki Lake",
+    "description": "A saltwater lake in Soon Valley, popular for bird watching and natural beauty.",
+    "category": "Lake",
+    "location": { "city": "Khabeki", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Khabeki Lake.jpeg", "caption": "Khabeki Lake, Soon Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Uchali Lake",
+    "description": "A scenic lake in Soon Valley, known for its migratory birds and tranquil setting.",
+    "category": "Lake",
+    "location": { "city": "Uchali", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Uchali Lake.jpeg", "caption": "Uchali Lake, Soon Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sakesar (Soon Valley)",
+    "description": "The highest peak in the Salt Range, offering panoramic views and a cool climate, located in the scenic Soon Valley.",
+    "category": "Mountain",
+    "location": { "city": "Sakesar", "state": "Punjab", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/punjab/Sakesar (Soon Valley).jpeg", "caption": "Sakesar Peak, Soon Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 90 },
+    "createdAt": "2025-07-04"
+  }
+]

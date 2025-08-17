@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Neelum Valley",
+    "description": "Stunning valley with crystal-clear rivers, dense forests, and snow-capped peaks.",
+    "category": "Valley",
+    "location": {
+      "city": "Neelum",
+      "state": "Azad Kashmir",
+      "country": "Pakistan"
+    },
+    "images": [
+      {"url": "/images/destinations/azad-kashmir/Neelum Valley.jpeg", "caption": "Neelum Valley river with mountains", "isPrimary": true}
+    ],
+    "highlights": ["Keran Sector", "Sharda University Ruins", "Kel Valley"],
+    "duration": { "days": 7 },
+    "maxGroupSize": 40,
+    "price": 400,
+    "rating": { "average": 4.8, "count": 220 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rawalakot & Banjosa Lake",
+    "description": "Beautiful hill station with pine forests and the scenic Banjosa Lake.",
+    "category": "Hill Station",
+    "location": {
+      "city": "Rawalakot",
+      "state": "Azad Kashmir",
+      "country": "Pakistan"
+    },
+    "images": [
+      {"url": "/images/destinations/azad-kashmir/Rawalakot.jpeg", "caption": "Rawalakot city nestled in Kashmir mountains", "isPrimary": true}
+    ],
+    "highlights": ["Banjosa Lake", "Toli Pir", "Poonch River"],
+    "duration": { "days": 3 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Muzaffarabad Red Fort",
+    "description": "A historic fort on the banks of Neelum River, offering panoramic views of Muzaffarabad city.",
+    "category": "Fort",
+    "location": { "city": "Muzaffarabad", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Muzaffarabad Red Fort.jpeg", "caption": "Red Fort, Muzaffarabad", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 25,
+    "price": 100,
+    "rating": { "average": 4.6, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Pir Chinasi",
+    "description": "A famous hilltop shrine and viewpoint near Muzaffarabad, known for its breathtaking views.",
+    "category": "Hill Station",
+    "location": { "city": "Pir Chinasi", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Pir Chinasi.jpeg", "caption": "Pir Chinasi, Muzaffarabad", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 20,
+    "price": 100,
+    "rating": { "average": 4.7, "count": 60 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Keran (Neelum Valley)",
+    "description": "A picturesque village on the banks of Neelum River, famous for its scenic beauty.",
+    "category": "Village",
+    "location": { "city": "Keran", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Keran (Neelum Valley).jpeg", "caption": "Keran, Neelum Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 15,
+    "price": 100,
+    "rating": { "average": 4.5, "count": 40 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sharda (Neelum Valley)",
+    "description": "A historic town in Neelum Valley, known for its ancient university ruins and riverside views.",
+    "category": "Town",
+    "location": { "city": "Sharda", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Sharda (Neelum Valley).jpeg", "caption": "Sharda, Neelum Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 10,
+    "price": 100,
+    "rating": { "average": 4.4, "count": 30 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Arang Kel",
+    "description": "A lush green village on a hilltop above Kel, accessible by a trek or chairlift.",
+    "category": "Village",
+    "location": { "city": "Arang Kel", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Arang Kel.jpeg", "caption": "Arang Kel, Neelum Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 12,
+    "price": 100,
+    "rating": { "average": 4.6, "count": 35 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Kel (Neelum Valley)",
+    "description": "A scenic town in upper Neelum Valley, base for treks to Arang Kel and Taobat.",
+    "category": "Town",
+    "location": { "city": "Kel", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Kel (Neelum Valley).jpeg", "caption": "Kel, Neelum Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 15,
+    "price": 100,
+    "rating": { "average": 4.5, "count": 40 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Taobat (Neelum Valley)",
+    "description": "The last village in Neelum Valley, known for its untouched natural beauty.",
+    "category": "Village",
+    "location": { "city": "Taobat", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Taobat (Neelum Valley).jpeg", "caption": "Taobat, Neelum Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 3 },
+    "maxGroupSize": 10,
+    "price": 200,
+    "rating": { "average": 4.4, "count": 30 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Leepa Valley",
+    "description": "A remote and beautiful valley, famous for its wooden houses and terraced fields.",
+    "category": "Valley",
+    "location": { "city": "Leepa", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Leepa Valley.jpeg", "caption": "Leepa Valley, Azad Kashmir", "isPrimary": true }
+    ],
+    "duration": { "days": 6 },
+    "maxGroupSize": 20,
+    "price": 300,
+    "rating": { "average": 4.7, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Toli Pir (Rawalakot)",
+    "description": "A popular hilltop meadow near Rawalakot, offering panoramic views and cool breezes.",
+    "category": "Meadow",
+    "location": { "city": "Toli Pir", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Toli Pir (Rawalakot).jpeg", "caption": "Toli Pir, Rawalakot", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 25,
+    "price": 100,
+    "rating": { "average": 4.6, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Bagh (AJK)",
+    "description": "A scenic town surrounded by mountains and forests, known for its pleasant weather.",
+    "category": "Town",
+    "location": { "city": "Bagh", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Bagh (AJK).jpeg", "caption": "Bagh, Azad Kashmir", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 20,
+    "price": 100,
+    "rating": { "average": 4.5, "count": 50 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Ratti Gali Lake",
+    "description": "A stunning alpine glacial lake, famous for its turquoise waters and wildflowers.",
+    "category": "Lake",
+    "location": { "city": "Ratti Gali", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Ratti Gali Lake.jpeg", "caption": "Ratti Gali Lake, Azad Kashmir", "isPrimary": true }
+    ],
+    "duration": { "days": 3 },
+    "maxGroupSize": 15,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Ganga Choti",
+    "description": "A popular trekking peak near Sudhan Gali, offering panoramic views of the surrounding valleys.",
+    "category": "Mountain",
+    "location": { "city": "Ganga Choti", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Ganga Choti.jpeg", "caption": "Ganga Choti, Azad Kashmir", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 10,
+    "price": 100,
+    "rating": { "average": 4.5, "count": 40 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sudhan Gali",
+    "description": "A scenic mountain pass and village, base for treks to Ganga Choti.",
+    "category": "Village",
+    "location": { "city": "Sudhan Gali", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Sudhan Gali.jpeg", "caption": "Sudhan Gali, Azad Kashmir", "isPrimary": true }
+    ],
+    "duration": { "days": 2 },
+    "maxGroupSize": 15,
+    "price": 100,
+    "rating": { "average": 4.6, "count": 45 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Dhani Waterfall",
+    "description": "The highest waterfall in Azad Kashmir, surrounded by lush greenery and hills.",
+    "category": "Waterfall",
+    "location": { "city": "Dhani", "state": "Azad Kashmir", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/azad-kashmir/Dhani Waterfall.jpeg", "caption": "Dhani Waterfall, Azad Kashmir", "isPrimary": true }
+    ],
+    "duration": { "days": 1 },
+    "maxGroupSize": 20,
+    "price": 100,
+    "rating": { "average": 4.7, "count": 55 },
+    "createdAt": "2025-07-04"
+  }
+]

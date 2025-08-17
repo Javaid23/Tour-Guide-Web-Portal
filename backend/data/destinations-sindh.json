@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Clifton Beach",
+    "description": "Karachi's most popular beach stretching along the Arabian Sea coastline. Famous for its vibrant atmosphere, camel and horse rides, local food stalls, and stunning sunset views. A perfect spot for families and tourists.",
+    "category": "Beach",
+    "location": {
+      "city": "Karachi",
+      "state": "Sindh",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/sindh/Clifton Beach.jpeg", "caption": "Clifton Beach sunset view", "isPrimary": true }
+    ],
+    "highlights": ["Camel Rides", "Food Stalls", "Sunset Views"],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 300 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Mohenjo-Daro",
+    "description": "Ancient Indus Valley Civilization site, UNESCO World Heritage, known for its archaeological significance.",
+    "category": "Archaeological Site",
+    "location": {
+      "city": "Larkana",
+      "state": "Sindh",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/sindh/Mohenjo-daro.jpeg", "caption": "Mohenjo-Daro archaeological site", "isPrimary": true }
+    ],
+    "highlights": ["Great Bath", "Stupa Mound", "Archaeological Ruins"],
+    "duration": { "days": 4 },
+    "maxGroupSize": 80,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 250 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sea View Beach",
+    "description": "A popular beach in Karachi, known for its long sandy stretch and lively atmosphere.",
+    "category": "Beach",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Sea View Beach.jpeg", "caption": "Sea View Beach, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 120,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 180 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Hawks Bay Beach",
+    "description": "A serene beach in Karachi, famous for its clear waters and turtle nesting sites.",
+    "category": "Beach",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Hawks Bay Beach.jpeg", "caption": "Hawks Bay Beach, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 90,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 140 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "French Beach",
+    "description": "A private and rocky beach near Karachi, popular for its clear water and peaceful environment.",
+    "category": "Beach",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/French Beach.jpeg", "caption": "French Beach, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 60,
+    "price": 200,
+    "rating": { "average": 4.4, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Manora Island",
+    "description": "A small island off Karachi, known for its lighthouse, sandy beaches, and colonial-era buildings.",
+    "category": "Island",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Manora Island.jpeg", "caption": "Manora Island, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.3, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Mazar-e-Quaid",
+    "description": "The mausoleum of Muhammad Ali Jinnah, founder of Pakistan, and a national symbol in Karachi.",
+    "category": "Monument",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Mazar-e-Quaid.jpeg", "caption": "Mazar-e-Quaid, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 200,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 500 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Frere Hall",
+    "description": "A historic building in Karachi, surrounded by gardens and known for its colonial architecture.",
+    "category": "Cultural Site",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Frere Hall.jpeg", "caption": "Frere Hall, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.2, "count": 60 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Pakistan Maritime Museum",
+    "description": "A naval museum in Karachi, featuring historic ships, submarines, and maritime exhibits.",
+    "category": "Museum",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Maritime Museum.jpeg", "caption": "Pakistan Maritime Museum, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 80,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 150 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Mohatta Palace",
+    "description": "A beautiful heritage museum in Karachi, known for its architecture and art exhibitions.",
+    "category": "Museum",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Mohatta Palace.jpeg", "caption": "Mohatta Palace, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 70,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Makli Necropolis",
+    "description": "A UNESCO World Heritage Site in Thatta, one of the largest necropolises in the world.",
+    "category": "Archaeological Site",
+    "location": { "city": "Thatta", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Makli Necropolis.jpeg", "caption": "Makli Necropolis, Thatta", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Shah Jahan Mosque",
+    "description": "A 17th-century mosque in Thatta, famous for its beautiful tile work and acoustics.",
+    "category": "Religious Site",
+    "location": { "city": "Thatta", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Shah Jahan Mosque.jpeg", "caption": "Shah Jahan Mosque, Thatta", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Keenjhar Lake",
+    "description": "A large freshwater lake near Thatta, popular for boating, fishing, and bird watching.",
+    "category": "Lake",
+    "location": { "city": "Thatta", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Keenjhar Lake.jpeg", "caption": "Keenjhar Lake, Thatta", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.4, "count": 130 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Pakka Qila",
+    "description": "A historic fort in Hyderabad, known for its massive walls and historical significance.",
+    "category": "Fort",
+    "location": { "city": "Hyderabad", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Pakka Qila.jpeg", "caption": "Pakka Qila, Hyderabad", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 80,
+    "price": 200,
+    "rating": { "average": 4.3, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rani Bagh",
+    "description": "A botanical garden and zoo in Hyderabad, popular for family outings.",
+    "category": "Park",
+    "location": { "city": "Hyderabad", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Rani Bagh.jpeg", "caption": "Rani Bagh, Hyderabad", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 150,
+    "price": 200,
+    "rating": { "average": 4.1, "count": 50 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Ranikot Fort",
+    "description": "Also known as the Great Wall of Sindh, Ranikot is one of the world's largest forts.",
+    "category": "Fort",
+    "location": { "city": "Jamshoro", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Ranikot Fort.jpeg", "caption": "Ranikot Fort, Jamshoro", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 70,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 60 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Gorakh Hill Station",
+    "description": "A hill station in the Kirthar Mountains, known as the Murree of Sindh for its cool climate and scenic views.",
+    "category": "Hill Station",
+    "location": { "city": "Dadu", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Gorakh Hill Station.jpeg", "caption": "Gorakh Hill Station, Dadu", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 40 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Kirthar National Park",
+    "description": "A national park in the Kirthar Mountains, home to diverse wildlife and rugged landscapes.",
+    "category": "National Park",
+    "location": { "city": "Kirthar", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Kirthar National Park.jpeg", "caption": "Kirthar National Park, Sindh", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 30 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Hingol National Park",
+    "description": "A vast national park spanning Sindh and Balochistan, famous for its unique rock formations and wildlife.",
+    "category": "National Park",
+    "location": { "city": "Hingol", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Hingol National Park.jpeg", "caption": "Hingol National Park", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 100,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 35 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Chaukhandi Tombs",
+    "description": "An ancient necropolis near Karachi, known for its intricately carved sandstone tombs.",
+    "category": "Archaeological Site",
+    "location": { "city": "Karachi", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Chaukhandi Tombs.jpeg", "caption": "Chaukhandi Tombs, Karachi", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.2, "count": 55 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Sehwan Sharif",
+    "description": "A spiritual town famous for the shrine of Lal Shahbaz Qalandar, attracting devotees from across Pakistan.",
+    "category": "Religious Site",
+    "location": { "city": "Sehwan", "state": "Sindh", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/sindh/Sehwan Sharif.jpeg", "caption": "Shrine of Lal Shahbaz Qalandar, Sehwan Sharif", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 200,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 500 },
+    "createdAt": "2025-07-04"
+  }
+]

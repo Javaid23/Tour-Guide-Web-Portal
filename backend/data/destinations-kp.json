@@ -1,0 +1,446 @@
+[
+  {
+    "name": "Swat Valley",
+    "description": "Known as the Switzerland of Pakistan, Swat Valley offers lush green landscapes, crystal-clear rivers, and rich Buddhist heritage.",
+    "category": "Valley",
+    "location": {
+      "city": "Swat",
+      "state": "Khyber Pakhtunkhwa",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/kpk/Swat River.jpg", "caption": "Swat Valley green landscape with river", "isPrimary": true }
+    ],
+    "highlights": ["Mingora Buddhist Sites", "Kalam Valley", "Swat River"],
+    "duration": { "days": 6 },
+    "maxGroupSize": 50,
+    "price": 350,
+    "rating": { "average": 4.9, "count": 300 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Chitral & Kalash Valleys",
+    "description": "Experience the unique culture of Chitral and the Kalash valleys, home to distinctive traditions and stunning mountain scenery.",
+    "category": "Valley",
+    "location": {
+      "city": "Chitral",
+      "state": "Khyber Pakhtunkhwa",
+      "country": "Pakistan"
+    },
+    "images": [
+      { "url": "/images/destinations/kpk/Kalash Valleys.jpeg", "caption": "Traditional Kalash woman in cultural dress", "isPrimary": true }
+    ],
+    "highlights": ["Kalash Valleys", "Chitral Fort", "Traditional Festivals"],
+    "duration": { "days": 7 },
+    "maxGroupSize": 40,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 180 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Malam Jabba",
+    "description": "A popular ski resort in Swat Valley, known for its snow sports and scenic beauty.",
+    "category": "Adventure Spot",
+    "location": { "city": "Malam Jabba", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Malam Jabba.jpeg", "caption": "Malam Jabba ski resort, Swat Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 120 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Fizagat",
+    "description": "A riverside park and picnic spot near Mingora in Swat Valley, famous for its lush greenery.",
+    "category": "Park",
+    "location": { "city": "Fizagat", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Fizagat.jpeg", "caption": "Fizagat Park, Swat Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 60,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Bahrain (Swat)",
+    "description": "A scenic riverside town in Swat Valley, known for its wooden houses and bazaars.",
+    "category": "Town",
+    "location": { "city": "Bahrain", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Bahrain (Swat).jpeg", "caption": "Bahrain, Swat Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 35,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 60 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Kalam Valley",
+    "description": "A beautiful valley in upper Swat, surrounded by snow-capped mountains and forests.",
+    "category": "Valley",
+    "location": { "city": "Kalam", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Kalam Valley.jpeg", "caption": "Kalam Valley, Swat", "isPrimary": true }
+    ],
+    "duration": { "days": 6 },
+    "maxGroupSize": 50,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 200 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Mahodand Lake",
+    "description": "A stunning alpine lake near Kalam, famous for its turquoise waters and trout fishing.",
+    "category": "Lake",
+    "location": { "city": "Kalam", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Mahodand Lake.jpeg", "caption": "Mahodand Lake, Swat Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Shandur Pass",
+    "description": "Known as the 'Roof of the World', Shandur Pass hosts the annual polo festival and offers breathtaking views.",
+    "category": "Mountain Pass",
+    "location": { "city": "Shandur", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Shandur Pass.jpeg", "caption": "Shandur Pass, Polo Festival", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 25,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 150 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Bamburet (Kalash Valley)",
+    "description": "The largest of the Kalash Valleys, known for its unique culture and festivals.",
+    "category": "Valley",
+    "location": { "city": "Bamburet", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Bamburet (Kalash Valley).jpeg", "caption": "Bamburet, Kalash Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 6 },
+    "maxGroupSize": 40,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 110 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Rumbur (Kalash Valley)",
+    "description": "A remote and beautiful Kalash valley, famous for its traditional wooden houses.",
+    "category": "Valley",
+    "location": { "city": "Rumbur", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Rumbur (Kalash Valley).jpeg", "caption": "Rumbur, Kalash Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 6 },
+    "maxGroupSize": 30,
+    "price": 350,
+    "rating": { "average": 4.7, "count": 100 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Birir (Kalash Valley)",
+    "description": "The smallest and least visited of the Kalash Valleys, known for its authentic Kalash culture.",
+    "category": "Valley",
+    "location": { "city": "Birir", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Birir (Kalash Valley).jpeg", "caption": "Birir, Kalash Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Dir Valley",
+    "description": "A lush green valley in Upper Dir, known for its natural beauty and cool climate.",
+    "category": "Valley",
+    "location": { "city": "Dir", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Dir Valley.jpeg", "caption": "Dir Valley, Khyber Pakhtunkhwa", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Kumrat Valley",
+    "description": "A hidden gem in Upper Dir, famous for its pine forests, rivers, and meadows.",
+    "category": "Valley",
+    "location": { "city": "Kumrat", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Kumrat Valley.jpeg", "caption": "Kumrat Valley, Upper Dir", "isPrimary": true }
+    ],
+    "duration": { "days": 7 },
+    "maxGroupSize": 30,
+    "price": 350,
+    "rating": { "average": 4.7, "count": 90 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Jahaz Banda",
+    "description": "A beautiful alpine meadow in Upper Dir, accessible via a trek from Kumrat Valley.",
+    "category": "Meadow",
+    "location": { "city": "Jahaz Banda", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Jahaz Banda.jpeg", "caption": "Jahaz Banda, Upper Dir", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 75 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Katora Lake",
+    "description": "A stunning glacial lake near Jahaz Banda, known for its blue waters and mountain views.",
+    "category": "Lake",
+    "location": { "city": "Katora Lake", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Katora Lake.jpeg", "caption": "Katora Lake, Kumrat Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 15,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 65 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Thandiani (Abbottabad)",
+    "description": "A hill station near Abbottabad, famous for its cool weather and pine forests.",
+    "category": "Hill Station",
+    "location": { "city": "Thandiani", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Thandiani (Abbottabad).jpeg", "caption": "Thandiani, Abbottabad", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 55 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Harnoi (Abbottabad)",
+    "description": "A popular picnic spot near Abbottabad, known for its streams and lush scenery.",
+    "category": "Picnic Spot",
+    "location": { "city": "Harnoi", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Harnoi (Abbottabad).jpeg", "caption": "Harnoi, Abbottabad", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.5, "count": 50 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Nathia Gali",
+    "description": "A famous hill station in the Galiyat region, known for its hiking trails and pleasant weather.",
+    "category": "Hill Station",
+    "location": { "city": "Nathia Gali", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Nathia Gali.jpeg", "caption": "Nathia Gali, Galiyat Region", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 85 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Ayubia National Park",
+    "description": "A protected area in the Galiyat region, home to diverse flora and fauna and popular hiking trails.",
+    "category": "National Park",
+    "location": { "city": "Ayubia", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Ayubia National Park.jpeg", "caption": "Ayubia National Park, Galiyat", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 350,
+    "rating": { "average": 4.8, "count": 95 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Mukshpuri Top",
+    "description": "A popular trekking destination near Dunga Gali, offering panoramic views of the surrounding hills.",
+    "category": "Mountain",
+    "location": { "city": "Mukshpuri", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Mukshpuri Top.jpeg", "caption": "Mukshpuri Top, Galiyat", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 40 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Miranjani Trek",
+    "description": "A scenic trek in the Galiyat region, leading to the highest peak in the area.",
+    "category": "Trek",
+    "location": { "city": "Miranjani", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Miranjani Trek.jpeg", "caption": "Miranjani Trek, Galiyat", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 25,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 45 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Dunga Gali",
+    "description": "A hill station in the Galiyat region, known for its colonial-era architecture and hiking trails.",
+    "category": "Hill Station",
+    "location": { "city": "Dunga Gali", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Dunga Gali.jpeg", "caption": "Dunga Gali, Galiyat", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 40,
+    "price": 200,
+    "rating": { "average": 4.7, "count": 65 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Bara Gali",
+    "description": "A picturesque hill station in the Galiyat region, popular for its cool weather and pine forests.",
+    "category": "Hill Station",
+    "location": { "city": "Bara Gali", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Bara Gali.jpeg", "caption": "Bara Gali, Galiyat", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 35,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 55 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Naran Kaghan Valley",
+    "description": "A breathtaking valley in the Mansehra District, famous for its alpine lakes and mountain scenery.",
+    "category": "Valley",
+    "location": { "city": "Naran", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Naran Kaghan Valley.jpeg", "caption": "Naran Kaghan Valley, Mansehra", "isPrimary": true }
+    ],
+    "duration": { "days": 7 },
+    "maxGroupSize": 50,
+    "price": 350,
+    "rating": { "average": 4.9, "count": 220 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Saif-ul-Mulook Lake",
+    "description": "A famous alpine lake near Naran, known for its crystal-clear waters and fairy tales.",
+    "category": "Lake",
+    "location": { "city": "Naran", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Saif-ul-Mulook Lake.jpeg", "caption": "Saif-ul-Mulook Lake, Naran", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 95 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Lulusar Lake",
+    "description": "A beautiful lake in the Kaghan Valley, surrounded by snow-capped peaks.",
+    "category": "Lake",
+    "location": { "city": "Kaghan", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Lulusar Lake.jpeg", "caption": "Lulusar Lake, Kaghan Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 15,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 70 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Babusar Top",
+    "description": "A high mountain pass at the northern end of Kaghan Valley, offering spectacular views.",
+    "category": "Mountain Pass",
+    "location": { "city": "Babusar", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Babusar Top.jpeg", "caption": "Babusar Top, Kaghan Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 25,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 85 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Batakundi",
+    "description": "A small town in Kaghan Valley, known for its scenic beauty and as a stopover for travelers.",
+    "category": "Town",
+    "location": { "city": "Batakundi", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Batakundi.jpeg", "caption": "Batakundi, Kaghan Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 200,
+    "rating": { "average": 4.6, "count": 60 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Shogran",
+    "description": "A hill station in the Kaghan Valley, famous for its lush meadows and panoramic views.",
+    "category": "Hill Station",
+    "location": { "city": "Shogran", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Shogran.jpeg", "caption": "Shogran, Kaghan Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 30,
+    "price": 350,
+    "rating": { "average": 4.7, "count": 75 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Siri Paye Meadows",
+    "description": "Alpine meadows near Shogran, known for their wildflowers and views of Makra Peak.",
+    "category": "Meadow",
+    "location": { "city": "Siri Paye", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Siri Paye Meadows.jpeg", "caption": "Siri Paye Meadows, Kaghan Valley", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 20,
+    "price": 200,
+    "rating": { "average": 4.8, "count": 80 },
+    "createdAt": "2025-07-04"
+  },
+  {
+    "name": "Takht-i-Bahi",
+    "description": "A UNESCO World Heritage Site, these Buddhist monastic ruins are among the most important in South Asia.",
+    "category": "Archaeological Site",
+    "location": { "city": "Takht-i-Bahi", "state": "Khyber Pakhtunkhwa", "country": "Pakistan" },
+    "images": [
+      { "url": "/images/destinations/kpk/Takht-i-Bahi.jpeg", "caption": "Takht-i-Bahi Buddhist Ruins", "isPrimary": true }
+    ],
+    "duration": { "days": 4 },
+    "maxGroupSize": 50,
+    "price": 200,
+    "rating": { "average": 4.9, "count": 150 },
+    "createdAt": "2025-07-04"
+  }
+]
