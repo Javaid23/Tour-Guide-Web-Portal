@@ -158,7 +158,7 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
           tour.location || 
           tour.region;
           
-        const response = await axios.post('/api/payments/create-payment-intent', {
+  const response = await api.post('/payments/create-payment-intent', {
           amount: priceCalculation.total, // amount in dollars
           currency: 'usd',
           metadata: {

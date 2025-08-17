@@ -16,22 +16,30 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 router.post("/create-payment-intent", async (req, res) => {
   try {
     const { amount, currency = "usd", metadata = {} } = req.body;
+    console.log("Received payment intent request:", { amount, currency, metadata });
     if (!amount || isNaN(amount)) {
+      console.error("Invalid amount received:", amount);
       return res.status(400).json({ message: "Amount is required and must be a number." });
     }
 
     // Stripe expects amount in cents
-    const paymentIntent = await stripe.paymentIntents.create({
-      amount: Math.round(amount * 100),
-      currency,
-      payment_method_types: ["card"],
-      metadata,
-      // Optionally, you can add receipt_email, description, etc.
-    });
+    let paymentIntent;
+    try {
+      paymentIntent = await stripe.paymentIntents.create({
+        amount: Math.round(amount * 100),
+        currency,
+        payment_method_types: ["card"],
+        metadata,
+      });
+      console.log("Stripe paymentIntent created:", paymentIntent.id);
+    } catch (stripeError) {
+      console.error("Stripe API error:", stripeError);
+      return res.status(500).json({ message: "Stripe API error", error: stripeError.message });
+    }
 
     res.json({ clientSecret: paymentIntent.client_secret });
   } catch (error) {
-    console.error("Stripe payment intent error:", error);
+    console.error("Payment route error:", error);
     res.status(500).json({ message: "Failed to create payment intent", error: error.message });
   }
 });
