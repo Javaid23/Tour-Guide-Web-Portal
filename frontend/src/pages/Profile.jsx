@@ -259,7 +259,7 @@ const Profile = () => {
           setTimeout(() => {
             setProfileImagePreview(null);
             console.log('🖼️ Cleared preview, showing server image');
-            console.log('🔗 Final avatar URL will be:', avatarPath.startsWith('http') ? avatarPath : `http://localhost:5000${avatarPath}`);
+            console.log('🔗 Final avatar URL will be:', avatarPath.startsWith('http') ? avatarPath : `${import.meta.env.VITE_API_URL.replace('/api','')}${avatarPath}`);
             setMessage('Profile picture updated successfully!');
             
             // Force component re-render to show new image

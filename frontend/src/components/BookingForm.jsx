@@ -38,7 +38,7 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
   })
 
   const [paymentStatus, setPaymentStatus] = useState(null);
-  const [paymentError, setPaymentError] = useState(null);
+  const [paymentError, setPaymentError] = useState("");
   const [isPaying, setIsPaying] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [showTerms, setShowTerms] = useState(false);
@@ -179,7 +179,7 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
           },
         });
         if (result.error) {
-          setPaymentError(result.error.message);
+          setPaymentError(typeof result.error.message === "string" ? result.error.message : JSON.stringify(result.error.message));
           setIsPaying(false);
         } else if (result.paymentIntent.status === 'succeeded') {
           setPaymentStatus('success');
@@ -218,7 +218,9 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
           if (onSubmit) onSubmit(formData);
         }
       } catch (err) {
-        setPaymentError(err.response?.data?.error || err.message);
+        let errorMsg = err.response?.data?.error || err.message || err.toString();
+        if (typeof errorMsg !== "string") errorMsg = JSON.stringify(errorMsg);
+        setPaymentError(errorMsg);
         setIsPaying(false);
       }
       return;
@@ -297,8 +299,10 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
         console.error('Error status:', bookingErr.response?.status);
         console.error('Full error object:', bookingErr);
         console.error('Request config:', bookingErr.config);
-        setPaymentError(`Booking failed: ${bookingErr.response?.data?.message || bookingErr.response?.data?.error || bookingErr.message || 'Unknown error'}`);
-        setIsPaying(false);
+        let errorMsg = bookingErr.response?.data?.message || bookingErr.response?.data?.error || bookingErr.message || 'Unknown error';
+        if (typeof errorMsg !== "string") errorMsg = JSON.stringify(errorMsg);
+        setPaymentError(`Booking failed: ${errorMsg}`);
+        setIsPaying(false;
       }
       return;
     }
@@ -906,7 +910,7 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
             {/* Error message (global, for booking/network/auth errors) */}
             {paymentError && (
               <div style={{ color: 'red', marginBottom: 8, textAlign: 'center', fontWeight: 600, fontSize: 15 }}>
-                {paymentError}
+                {typeof paymentError === "string" ? paymentError : JSON.stringify(paymentError)}
               </div>
             )}
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>

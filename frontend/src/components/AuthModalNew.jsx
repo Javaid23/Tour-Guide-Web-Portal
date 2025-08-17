@@ -50,7 +50,7 @@ const AuthModal = ({ isOpen, onClose, initialMode = "signin" }) => {
     setErrors({});
 
     try {
-      const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+  const API_BASE = import.meta.env.VITE_API_URL;
       const endpoint = mode === 'signup' ? `${API_BASE}/auth/register` : `${API_BASE}/auth/login`;
       const body = mode === 'signup' ? {
         firstName: formData.firstName,
@@ -126,7 +126,7 @@ const AuthModal = ({ isOpen, onClose, initialMode = "signin" }) => {
   const handleGoogleSuccess = useCallback(async (tokenResponse) => {
     setIsLoading(true);
     try {
-      const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+  const API_BASE = import.meta.env.VITE_API_URL;
       const response = await fetch(`${API_BASE}/auth/google-login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

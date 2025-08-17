@@ -44,7 +44,7 @@ const TourDetails = () => {
     try {
       console.log("🔍 Fetching tour details for ID:", id)
       console.log("🔍 ID type:", typeof id, "ID value:", id)
-      console.log("🔍 API base URL:", import.meta.env.VITE_API_URL || "http://localhost:5000/api")
+  console.log("🔍 API base URL:", import.meta.env.VITE_API_URL)
       
       setLoading(true)
       setError(null)
@@ -57,7 +57,7 @@ const TourDetails = () => {
       // Test if API is reachable
       console.log("🧪 Testing API connectivity...")
       try {
-        const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+  const apiUrl = import.meta.env.VITE_API_URL;
         const testResponse = await fetch(`${apiUrl}/tours?limit=1`)
         console.log("🧪 API test response status:", testResponse.status)
         if (!testResponse.ok) {

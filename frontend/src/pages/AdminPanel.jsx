@@ -88,7 +88,7 @@ const AdminPanel = () => {
 
   const checkBackendConnection = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/admin/health", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/admin/health`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       })
       return response.ok
@@ -104,8 +104,8 @@ const AdminPanel = () => {
       console.log("🔑 Token for guide apps:", token ? "EXISTS" : "MISSING")
 
       // Fetch guide applications from real API (all applications, not just pending)
-      console.log("📡 Fetching guide applications from: http://localhost:5000/api/guide/applications")
-      const guideAppsResponse = await fetch("http://localhost:5000/api/guide/applications", {
+      console.log("📡 Fetching guide applications from:", `${import.meta.env.VITE_API_URL}/guide/applications`)
+      const guideAppsResponse = await fetch(`${import.meta.env.VITE_API_URL}/guide/applications`, {
         headers: { 
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}` 
@@ -172,7 +172,7 @@ const AdminPanel = () => {
       }
 
       // Fetch pending reviews from real API
-      const reviewsResponse = await fetch("http://localhost:5000/api/admin/reviews?status=pending", {
+      const reviewsResponse = await fetch(`${import.meta.env.VITE_API_URL}/admin/reviews?status=pending`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       const reviewsData = await reviewsResponse.json()
@@ -181,7 +181,7 @@ const AdminPanel = () => {
       }
 
       // Fetch all payments/bookings from real API
-      const paymentsResponse = await fetch("http://localhost:5000/api/admin/bookings", {
+      const paymentsResponse = await fetch(`${import.meta.env.VITE_API_URL}/admin/bookings`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       const paymentsData = await paymentsResponse.json()
@@ -244,7 +244,7 @@ const AdminPanel = () => {
 
       // Fetch admin stats from real API
       try {
-        const statsResponse = await fetch("http://localhost:5000/api/admin/stats", {
+        const statsResponse = await fetch(`${import.meta.env.VITE_API_URL}/admin/stats`, {
           headers: { Authorization: `Bearer ${token}` },
         })
         console.log("Stats response status:", statsResponse.status)
@@ -266,7 +266,7 @@ const AdminPanel = () => {
 
       // Fetch bookings from real API
       try {
-        const bookingsResponse = await fetch("http://localhost:5000/api/admin/bookings", {
+        const bookingsResponse = await fetch(`${import.meta.env.VITE_API_URL}/admin/bookings`, {
           headers: { Authorization: `Bearer ${token}` },
         })
         console.log("Bookings response status:", bookingsResponse.status)
@@ -282,7 +282,7 @@ const AdminPanel = () => {
 
       // Fetch users from real API
       try {
-        const usersResponse = await fetch("http://localhost:5000/api/admin/users", {
+        const usersResponse = await fetch(`${import.meta.env.VITE_API_URL}/admin/users`, {
           headers: { Authorization: `Bearer ${token}` },
         })
         console.log("Users response status:", usersResponse.status)
@@ -298,7 +298,7 @@ const AdminPanel = () => {
 
       // Fetch tours from real API
       try {
-        const toursResponse = await fetch("http://localhost:5000/api/admin/tours", {
+        const toursResponse = await fetch(`${import.meta.env.VITE_API_URL}/admin/tours`, {
           headers: { Authorization: `Bearer ${token}` },
         })
         console.log("Tours response status:", toursResponse.status)
@@ -313,8 +313,8 @@ const AdminPanel = () => {
 
       // Fetch destinations from real API (no auth required) - Get all destinations
       try {
-        console.log("Attempting to fetch all destinations from:", "http://localhost:5000/api/destinations?limit=1000")
-        const destinationsResponse = await fetch("http://localhost:5000/api/destinations?limit=1000")
+        console.log("Attempting to fetch all destinations from:", `${import.meta.env.VITE_API_URL}/destinations?limit=1000`)
+        const destinationsResponse = await fetch(`${import.meta.env.VITE_API_URL}/destinations?limit=1000`)
         console.log("Destinations response status:", destinationsResponse.status)
         
         if (destinationsResponse.ok) {
@@ -349,7 +349,7 @@ const AdminPanel = () => {
 
       // Fetch current user profile data
       try {
-        const profileResponse = await fetch("http://localhost:5000/api/users/profile", {
+        const profileResponse = await fetch(`${import.meta.env.VITE_API_URL}/users/profile`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         
@@ -418,7 +418,7 @@ const AdminPanel = () => {
   const testBackendConnection = async () => {
     try {
       console.log('🧪 Testing backend connection...');
-      const response = await fetch('http://localhost:5000/api/health', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/health`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -446,20 +446,20 @@ const AdminPanel = () => {
         return;
       }
 
-      console.log(`📡 Making request to: http://localhost:5000/api/guide/applications/${applicationId}/status`);
+  console.log(`📡 Making request to: ${import.meta.env.VITE_API_URL}/guide/applications/${applicationId}/status`);
       console.log('📤 Request data:', { status: action, notes });
       console.log('🔑 Token exists:', !!token);
       
       // Test if backend is reachable first
       try {
-        const healthCheck = await fetch('http://localhost:5000/api/health');
+        const healthCheck = await fetch(`${import.meta.env.VITE_API_URL}/health`);
         console.log('🏥 Health check status:', healthCheck.status);
       } catch (healthError) {
         console.error('❌ Backend health check failed:', healthError);
         throw new Error('Backend server is not reachable');
       }
       
-      const response = await fetch(`http://localhost:5000/api/guide/applications/${applicationId}/status`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/guide/applications/${applicationId}/status`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -519,7 +519,7 @@ const AdminPanel = () => {
       setAdminActionLoading(true)
       const token = localStorage.getItem("token")
       
-      const response = await fetch(`http://localhost:5000/api/admin/reviews/${reviewId}/status`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/admin/reviews/${reviewId}/status`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -550,7 +550,7 @@ const AdminPanel = () => {
       setAdminActionLoading(true)
       const token = localStorage.getItem("token")
       
-      const response = await fetch(`http://localhost:5000/api/admin/bookings/${bookingId}/status`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/admin/bookings/${bookingId}/status`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -2127,7 +2127,7 @@ const AdminPanel = () => {
                     phone: profileEditForm.phone
                   });
                   
-                  const response = await fetch("http://localhost:5000/api/users/profile", {
+                  const response = await fetch(`${import.meta.env.VITE_API_URL}/users/profile`, {
                     method: "PUT",
                     headers: {
                       "Content-Type": "application/json",
@@ -2276,7 +2276,7 @@ const AdminPanel = () => {
                   const token = localStorage.getItem("token");
                   console.log("🔄 Attempting to change password...");
                   
-                  const response = await fetch("http://localhost:5000/api/users/password", {
+                  const response = await fetch(`${import.meta.env.VITE_API_URL}/users/password`, {
                     method: "PUT",
                     headers: {
                       "Content-Type": "application/json",

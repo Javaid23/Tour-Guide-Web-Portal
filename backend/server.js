@@ -86,6 +86,7 @@ app.use(
         "http://localhost:3002",
         "http://localhost:5173",
         "http://localhost:4173",
+        "https://tour-guide-web-portal.vercel.app"
       ];
       if (allowedOrigins.includes(origin)) {
         return callback(null, true);

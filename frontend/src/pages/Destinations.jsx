@@ -353,7 +353,7 @@ const Destinations = () => {
                   <ol className="list-decimal list-inside space-y-2 text-gray-600">
                     <li>Make sure backend server is running on port 5000</li>
                     <li>Check if MongoDB is connected</li>
-                    <li>Verify API endpoint: <a href="http://localhost:5000/api/health" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">http://localhost:5000/api/health</a></li>
+                    <li>Verify API endpoint: <a href={`${import.meta.env.VITE_API_URL}/health`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">{`${import.meta.env.VITE_API_URL}/health`}</a></li>
                   </ol>
                 </div>
                 <button 
