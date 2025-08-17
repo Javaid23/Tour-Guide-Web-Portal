@@ -59,23 +59,24 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const googleLogin = async (credential) => {
+  // Google login using authCode (for @react-oauth/google auth-code flow)
+  const googleLogin = async (authCode) => {
     try {
-  const response = await fetch(`${import.meta.env.VITE_API_URL}/auth/google-login`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/auth/google-login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ credential }),
+        body: JSON.stringify({ authCode }),
       });
 
       const data = await response.json();
 
       if (response.ok && data.success) {
-        localStorage.setItem('token', data.token);
-        localStorage.setItem('user', JSON.stringify(data.user));
-        setUser(data.user);
-        return { success: true, user: data.user };
+        localStorage.setItem('token', data.data.token);
+        localStorage.setItem('user', JSON.stringify(data.data.user));
+        setUser(data.data.user);
+        return { success: true, user: data.data.user };
       } else {
         return { success: false, message: data.message || 'Google login failed' };
       }
