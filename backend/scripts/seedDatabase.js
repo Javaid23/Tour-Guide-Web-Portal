@@ -84,7 +84,7 @@ const sampleTours = rawTours.map(tour => {
 async function seedDatabase() {
   try {
     console.log("Starting database seeding process...")
-    await mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/tourguide", {
+  await mongoose.connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })

@@ -312,7 +312,7 @@ router.post("/forgot-password", async (req, res) => {
     user.resetPasswordExpires = tokenExpiry;
     await user.save();
     // Send email
-    const resetUrl = `${process.env.CLIENT_URL || "http://localhost:3000"}/reset-password?token=${token}`;
+  const resetUrl = `${process.env.CLIENT_URL}/reset-password?token=${token}`;
     await sendEmail(
       user.email,
       "Reset your password",

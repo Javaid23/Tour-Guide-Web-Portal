@@ -430,7 +430,7 @@ router.patch('/applications/:id/status', async (req, res) => {
                     </div>
                     
                     <div style="text-align: center; margin: 30px 0;">
-                      <a href="${process.env.FRONTEND_URL || 'http://localhost:3000'}" 
+                      <a href="${process.env.FRONTEND_URL}" 
                          style="background: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold;">
                         Login to Your Dashboard
                       </a>

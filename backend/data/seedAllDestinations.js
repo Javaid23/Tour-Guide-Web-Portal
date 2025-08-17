@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 dotenv.config();
 
-const MONGO_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/tour_guide";
+const MONGO_URI = process.env.MONGODB_URI;
 
 const jsonFiles = [
   "destinations-punjab.json",

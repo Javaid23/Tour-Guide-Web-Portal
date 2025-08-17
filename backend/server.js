@@ -80,13 +80,9 @@ app.use(
       }
       // Production origins
       const allowedOrigins = [
-        process.env.CLIENT_URL || "http://localhost:3000",
-        "http://localhost:3000",
-        "http://localhost:3001", 
-        "http://localhost:3002",
-        "http://localhost:5173",
-        "http://localhost:4173",
-        "https://tour-guide-web-portal.vercel.app"
+  process.env.CLIENT_URL,
+  process.env.FRONTEND_URL,
+  "https://tour-guide-web-portal.vercel.app"
       ];
       if (allowedOrigins.includes(origin)) {
         return callback(null, true);
@@ -256,7 +252,7 @@ app.use('*', (req, res) => {
 // Database connection and server startup
 const connectDB = async () => {
   try {
-    const mongoURI = process.env.MONGODB_URI || "mongodb://localhost:27017/tourguide";
+  const mongoURI = process.env.MONGODB_URI;
     
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
@@ -304,10 +300,10 @@ const startServer = async () => {
   // Start HTTP server
   const server = app.listen(PORT, () => {
     console.log(`🚀 Tour Guide Server running on port ${PORT}`);
-    console.log(`🌐 Frontend URL: http://localhost:3000`);
-    console.log(`🔧 API Health: http://localhost:${PORT}/api/health`);
-    console.log(`📋 API Tours: http://localhost:${PORT}/api/tours`);
-    console.log(`📚 API Docs: http://localhost:${PORT}/api`);
+  console.log(`🌐 Frontend URL: ${process.env.CLIENT_URL || process.env.FRONTEND_URL}`);
+  console.log(`🔧 API Health: ${process.env.API_URL}/api/health`);
+  console.log(`📋 API Tours: ${process.env.API_URL}/api/tours`);
+  console.log(`📚 API Docs: ${process.env.API_URL}/api`);
   });
 
   // Graceful shutdown handling
