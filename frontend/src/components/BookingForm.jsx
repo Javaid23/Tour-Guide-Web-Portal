@@ -167,7 +167,13 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
             ...(isDestination ? { destinationId: tour._id } : { tourId: tour._id })
           }
         });
-        const clientSecret = response.data.clientSecret;
+  const clientSecret = response.data.data?.clientSecret;
+        console.log("Stripe clientSecret from backend:", clientSecret);
+        if (!clientSecret || typeof clientSecret !== "string") {
+          setPaymentError("Stripe payment failed: Missing or invalid client secret. Please contact support or check backend logs.");
+          setIsPaying(false);
+          return;
+        }
         const cardElement = elements.getElement(CardElement);
         const result = await stripe.confirmCardPayment(clientSecret, {
           payment_method: {
