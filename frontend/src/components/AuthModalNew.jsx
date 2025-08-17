@@ -180,7 +180,22 @@ const AuthModal = ({ isOpen, onClose, initialMode = "signin" }) => {
   }, [mode]);
 
   return (
-    <div className="dialog-overlay" style={overlayStyle} onClick={handleBackdropClick}>
+    <div
+      className="dialog-overlay"
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100vw",
+        height: "100vh",
+        background: "rgba(0,0,0,0.5)",
+        zIndex: 2000, // Ensure modal is above navbar
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
+      }}
+      onClick={handleBackdropClick}
+    >
       <div className="dialog-box" style={dialogStyle} onClick={e => e.stopPropagation()}>
         <button className="close-btn" onClick={onClose} style={closeButtonStyle}>
           &times;
