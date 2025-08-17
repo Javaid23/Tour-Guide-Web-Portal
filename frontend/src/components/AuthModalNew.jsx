@@ -189,14 +189,26 @@ const AuthModal = ({ isOpen, onClose, initialMode = "signin" }) => {
         width: "100vw",
         height: "100vh",
         background: "rgba(0,0,0,0.5)",
-        zIndex: 2000, // Ensure modal is above navbar
+        zIndex: 9999, // Increased z-index for maximum stacking
         display: "flex",
         alignItems: "center",
         justifyContent: "center"
       }}
       onClick={handleBackdropClick}
     >
-      <div className="dialog-box" style={dialogStyle} onClick={e => e.stopPropagation()}>
+      <div className="dialog-box" style={{
+    background: 'white',
+    borderRadius: 20,
+    padding: 40,
+    width: '100%',
+    maxWidth: 480,
+    boxShadow: '0 20px 40px rgba(0,0,0,0.15)',
+    position: 'relative',
+    margin: '80px 0', // Increased margin to avoid navbar overlap
+    maxHeight: 'calc(100vh - 160px)', // Increased top/bottom margin
+    overflowY: 'auto',
+    zIndex: 10000 // Ensure dialog box is above everything
+  }} onClick={e => e.stopPropagation()}>
         <button className="close-btn" onClick={onClose} style={closeButtonStyle}>
           &times;
         </button>

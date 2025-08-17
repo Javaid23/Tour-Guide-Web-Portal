@@ -302,7 +302,7 @@ const BookingForm = ({ tour, isOpen, onClose, onSubmit }) => {
         let errorMsg = bookingErr.response?.data?.message || bookingErr.response?.data?.error || bookingErr.message || 'Unknown error';
         if (typeof errorMsg !== "string") errorMsg = JSON.stringify(errorMsg);
         setPaymentError(`Booking failed: ${errorMsg}`);
-        setIsPaying(false;
+  setIsPaying(false);
       }
       return;
     }

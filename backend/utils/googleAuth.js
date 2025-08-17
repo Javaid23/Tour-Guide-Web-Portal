@@ -7,8 +7,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Load Google credentials from Render secret file system
-const credentialsPath = '/etc/secrets/client_secret_193682875788-m6hm75tt692g0t5p16391rkue1l4ekkn.apps.googleusercontent.com.json';
+// Load Google credentials from Render secret file system (CORRECT FILE)
+const credentialsPath = '/etc/secrets/client_secret_193682875788-2uu2dvss8f9m5h3mdtqt7kclpeqj73t0.apps.googleusercontent.com.json';
 let credentials;
 try {
   credentials = JSON.parse(fs.readFileSync(credentialsPath, 'utf-8'));
